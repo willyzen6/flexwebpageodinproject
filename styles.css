@@ -130,3 +130,54 @@ body {
     text-align: right;
     padding: 0 25rem 5rem 0px;
 }
+
+.last {
+    height: 22rem;
+    width: auto;
+}
+
+
+.bluspace {
+    display: flex;
+    background-color: #3882F6;
+    height: 12rem;
+    width: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 6rem 12rem 6rem 12rem;
+    color: white;
+    border-radius: 20px;
+}
+
+.bluspace h1 {
+    font-size: 35px;
+    padding: 0;
+}
+
+.bluspace p {
+    position: relative;
+    top: -20px;
+}
+
+.bluspace button {
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+    border: solid 2px;
+    position: relative;
+    left: -180px;
+    
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+.footer a {
+    text-align: center;
+}
